@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0B89AB201A8E04009CDF5B /* bgmusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = BE0B89AA201A8E04009CDF5B /* bgmusic.wav */; };
 		BEBF96CA201A3E28006AF9E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF96C9201A3E28006AF9E7 /* AppDelegate.swift */; };
 		BEBF96CC201A3E28006AF9E7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBF96CB201A3E28006AF9E7 /* GameViewController.swift */; };
 		BEBF96CF201A3E28006AF9E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBF96CD201A3E28006AF9E7 /* Main.storyboard */; };
@@ -75,6 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE0B89AA201A8E04009CDF5B /* bgmusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bgmusic.wav; path = ../../../bgmusic.wav; sourceTree = "<group>"; };
 		BEBF96BE201A3E28006AF9E7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		BEBF96BF201A3E28006AF9E7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		BEBF96C0201A3E28006AF9E7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		BEBF96BD201A3E28006AF9E7 /* supersecrettechnologies Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BE0B89AA201A8E04009CDF5B /* bgmusic.wav */,
 				BEBF96BE201A3E28006AF9E7 /* Actions.sks */,
 				BEBF96BF201A3E28006AF9E7 /* GameScene.sks */,
 				BEBF96C0201A3E28006AF9E7 /* GameScene.swift */,
@@ -332,6 +335,7 @@
 				BEBF96FB201A3E28006AF9E7 /* Actions.sks in Resources */,
 				BEBF96D2201A3E28006AF9E7 /* LaunchScreen.storyboard in Resources */,
 				BEBF9703201A3E28006AF9E7 /* Assets.xcassets in Resources */,
+				BE0B89AB201A8E04009CDF5B /* bgmusic.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +634,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RC7YEC8DUR;
 				INFOPLIST_FILE = "supersecrettechnologies iOS/Info.plist";
@@ -637,6 +642,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bounce.supersecrettechnologies;
 				PRODUCT_NAME = supersecrettechnologies;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -648,6 +654,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RC7YEC8DUR;
 				INFOPLIST_FILE = "supersecrettechnologies iOS/Info.plist";
@@ -655,6 +662,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bounce.supersecrettechnologies;
 				PRODUCT_NAME = supersecrettechnologies;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
